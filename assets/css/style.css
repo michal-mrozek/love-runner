@@ -178,6 +178,7 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    text-align: center;
 }
 
 #times div {
@@ -185,7 +186,7 @@ hr {
     background-color: rgba(0, 0, 0, .6);
     width: 19%;
     height: 300px;
-    float: left;
+    display: inline-block;
     padding: 30px 0 0 10px;
     text-align: center;
     margin: 2px;
@@ -212,5 +213,15 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #777;
+}
 
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photo img {
+    width: 100%;
 }
